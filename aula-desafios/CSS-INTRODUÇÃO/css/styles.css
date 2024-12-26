@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --color-primary: #F03C42;
+    --color-secondary: #222374;
+    --color-gray: #CCCCCC;
+    --color-white: #FFF;
+    --color-black: #000;
+}
+
+body{ 
+    font-family: 'Open Sans', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: var(--color-primary);
+}
+.container{
+    margin: 0 auto;
+    max-width: 960px;
+}
+.header {
+    display: flex;
+    min-height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--color-white);
+
+}
+
+.header > h1 {
+    font-size: 18px;
+    font-weight: 700;
+}
+.header > p {
+    
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.logo-box {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+}
+
+
+/* CONTENT */
+
+.content {
+    background-color: var(--color-secondary);
+    min-height: 440px;
+}
+.content > div > h1 {
+    color: var(--color-white);
+    font-weight: 700;
+    font-size: 32px;
+    padding: 20px;
+}
+.box-content {
+    border-radius: 8px;
+    background-color: var(--color-gray);
+    padding: 20px;
+    margin: 20px;
+}
+
+/* MODALITY */
+
+.modality {
+    min-height: 930px;
+}
+
+.modality > div > h1 {
+    color: var(--color-primary);
+    font-weight: 700;
+    font-size: 32px;
+    padding: 20px;
+}
+.modality-box {
+    background-color: var(--color-secondary);
+    color: var(--color-white);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+
+}
+.modality-box > p {
+    margin-top: 20px;
+    color: var(--color-gray);
+}
+
+/* FOOTER */
+
+footer {
+    min-height: 262px;
+    color: var(--color-white);
+    background-color: var(--color-black);
+}
+.social-box {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    
+}
+.social {
+    padding: 10px 0;
+}
+.footer {
+    text-align: center;
+}
