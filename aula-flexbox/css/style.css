@@ -1,20 +1,31 @@
+:root {
+    --bg-primary-color: #ff0000;
+    --bg-white-color: #fff;
+    --gb-gray-color: #bbb;
+}
+
+
 *{
     margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--gb-gray-color);
 }
 
 .container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    height: 900px;
-    align-items: center;
+    max-width: 960px;
+    margin: 0 auto;
 }
 
 .bloco {
-    width: 90px;
+    background-color: var(--bg-white-color);
+    width: 280px;
     margin: 20px;
     height: 200px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+}
+.bloco:hover{
+    border: 2px solid var(--bg-primary-color);
 }
