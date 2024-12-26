@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 900px;
+    align-items: center;
+}
+
+.bloco {
+    width: 90px;
+    margin: 20px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
